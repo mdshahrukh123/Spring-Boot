@@ -18,27 +18,27 @@
       * AddressRepo
       * OrderRepo
       * UserSerRepo
-Address
-OrderSe
-UserSerepo
    4. Module
-      * Employee
+      * Product
       * Address
-   
+      * Order
+      * User
+       
 ## Project Summary
- #### This is Employee Address  project. In this project i used @OneToOne annotation to the address attributes.
+ #### This is Ecommerce Applicatio API project. In this project i connect with dataBase..
   #### I used CRUD operation to store the data in the table. I made many attribuets like...
    
- ## Employee Attributes
+ ## User Attributes
   * Id
-  * firstName
-  * lastName
-  * Address
+  * Name
+  * Email
+  * password
+  * PhoneNumber
   
  ## Address Attributes
   * id
-  * street
+  * name
+  * landmark
   * city
   * state
   * zipcode
-  
