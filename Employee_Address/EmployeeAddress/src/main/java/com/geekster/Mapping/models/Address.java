@@ -28,7 +28,7 @@ public class Address {
     //@ManyToMany(cascade = CascadeType.ALL)
     //@JoinColumn(name = "")
     //@ManyToOne(cascade = CascadeType.ALL)
-//    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne(cascade = CascadeType.ALL)
     private List<Employee> user;
 
 }
